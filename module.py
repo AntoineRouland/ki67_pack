@@ -97,8 +97,8 @@ def ki67_segmentation(original_image,
 def load_data():
     """ This function loads 5 examples of images and the positive and negative masks associated with each images.
 
-    :return: a list of dictionary with the followed keys : "sample_name", "original_image", "positive_mask" and
-    "negative_mask"
+    :return: a list of dictionary with the followed keys : "sample_name", "original_image", "positive_mask"
+    and "negative_mask".
     """
     names = references_names()
     ref_paths = []
