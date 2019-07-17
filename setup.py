@@ -1,17 +1,22 @@
-from setuptools import setup, find_packages
+import setuptools
 
-setup(
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
-    name="ki_67 segmentation",
-
-    version="1.0.1",
-
-    packages=find_packages(),
-
-    description="A function which returns the ratio for cells marked by the ki-67 antigen",
-
-    author="Antoine Rouland",
-
-    python_requires=">=3.0"
-
+setuptools.setup(
+    name="ki67-segmentation",
+    version="0.0.1",
+    author="Rouland Antoine",
+    author_email="antoine.rouland@grenoble-inp.org",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/AntoineRouland/ki67_pack",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    include_package_data=True
 )
+
