@@ -8,8 +8,8 @@ This package contains two functions :
                       resize_factor=8,
                       visualize_regions=False):
                       
-  This function takes an image and return the ratio for cells marked by the ki-67 antigen.
-    Also, it plots on the initial image the regions that the algorithm considers as positives cells,
+  This function takes an image and return the ratio of cells marked by the ki-67 antigen.
+    Also, it can plots on the initial image the regions that the algorithm considers as positives cells,
     negatives cells or background.
     The parameters by default are the ones which work good with the images I have worked with.
     
