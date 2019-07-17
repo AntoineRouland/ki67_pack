@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ki67-segmentation",
+    name="ki67_segmentation",
     version="0.0.1",
     author="Rouland Antoine",
     author_email="antoine.rouland@grenoble-inp.org",
