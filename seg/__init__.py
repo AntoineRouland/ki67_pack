@@ -1,1 +1,1 @@
-name = "seg"
+name = "ki67"
