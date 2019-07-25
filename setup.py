@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ki67segmentation",
-    version="0.0.1",
+    version="0.0.2",
     author="Rouland Antoine",
     author_email="antoine.rouland@grenoble-inp.org",
     long_description=long_description,
